@@ -1,0 +1,7 @@
+# 这里应该放置 1024x1024 的应用图标
+# 由于无法直接创建图片文件，请手动添加以下文件：
+# - resources/icon.png (1024x1024)
+# - resources/splash.png (2732x2732)
+
+# 你可以使用在线工具生成图标：
+# https://capacitorjs.com/docs/guides/splash-screens-and-icons

@@ -1,0 +1,7 @@
+{
+  "name": "CloudKitchen Premium",
+  "description": "A premium, Starbucks-style mobile ordering system with reservations, lottery uploads, and AI assistance.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

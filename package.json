@@ -1,0 +1,39 @@
+{
+  "name": "cloudkitchen-premium",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "db:setup": "echo '请在 Supabase SQL 编辑器中运行 scripts/init-database.sql'",
+    "db:reset": "echo '请在 Supabase 项目中重置数据库'",
+    "build:mobile": "npm run build && npx cap sync",
+    "build:pwa": "npm run build",
+    "android": "npm run build:mobile && npx cap open android",
+    "ios": "npm run build:mobile && npx cap open ios",
+    "android:run": "npm run build:mobile && npx cap run android",
+    "ios:run": "npm run build:mobile && npx cap run ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@google/genai": "^1.31.0",
+    "@supabase/supabase-js": "^2.87.1",
+    "lucide-react": "^0.556.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-router-dom": "^7.10.1",
+    "vite-plugin-pwa": "^1.2.0",
+    "workbox-window": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
