@@ -47,7 +47,7 @@ git push ionic main
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/你的用户名/cloudkitchen-premium.git
+git remote add origin https://github.com/dz18258645021-web/cloudkitchen-premium.git
 git push -u origin main
 ```
 
