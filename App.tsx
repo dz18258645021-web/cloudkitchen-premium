@@ -420,7 +420,7 @@ const LoginScreen: React.FC<{ onLogin: (role: UserRole, name: string) => void }>
                                 value={pin} 
                                 onChange={e => { setPin(e.target.value); setError(''); }}
                                 maxLength={4}
-                                className="text-center font-bold text-lg"
+                                className="font-bold"
                              />
                              {error && <p className="text-red-500 text-xs mt-2 text-center">{error}</p>}
                         </div>
