@@ -416,11 +416,11 @@ const LoginScreen: React.FC<{ onLogin: (role: UserRole, name: string) => void }>
                              <label className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 block">访问密码</label>
                              <Input 
                                 type="password" 
-                                placeholder="请输入员工密码" 
+                                placeholder="" 
                                 value={pin} 
                                 onChange={e => { setPin(e.target.value); setError(''); }}
                                 maxLength={4}
-                                className="text-center tracking-[1em] font-bold text-lg"
+                                className="text-center font-bold text-lg"
                              />
                              {error && <p className="text-red-500 text-xs mt-2 text-center">{error}</p>}
                         </div>
